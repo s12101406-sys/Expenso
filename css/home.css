@@ -1,0 +1,115 @@
+.home-hero {
+  margin-bottom: 2rem;
+  animation: fade-up 0.5s ease;
+}
+
+.home-hero .brand-mark {
+  font-family: var(--display);
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  color: var(--brand);
+  line-height: 1;
+  margin-bottom: 0.9rem;
+}
+
+.home-hero .brand-mark span {
+  color: var(--accent);
+}
+
+.home-hero h1 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  max-width: 32rem;
+}
+
+.chooser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.15rem;
+}
+
+.choice {
+  position: relative;
+  overflow: hidden;
+  padding: 1.7rem;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  animation: fade-up 0.55s ease both;
+}
+
+.choice:nth-child(2) {
+  animation-delay: 0.08s;
+}
+
+.choice:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 44px rgba(18, 22, 28, 0.12);
+}
+
+.choice-home {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.95), rgba(243, 247, 246, 0.92)),
+    radial-gradient(420px 180px at 100% 0%, rgba(15, 61, 62, 0.12), transparent 70%);
+}
+
+.choice-company {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.95), rgba(248, 244, 240, 0.94)),
+    radial-gradient(420px 180px at 100% 0%, rgba(196, 92, 38, 0.14), transparent 70%);
+}
+
+.choice-kicker {
+  position: absolute;
+  top: 1.4rem;
+  left: 1.7rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.choice h2 {
+  font-family: var(--display);
+  font-size: 1.85rem;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+  color: var(--ink);
+}
+
+.choice p {
+  color: var(--ink-soft);
+  max-width: 22rem;
+  margin-bottom: 1.2rem;
+}
+
+.choice .btn {
+  align-self: flex-start;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 760px) {
+  .chooser {
+    grid-template-columns: 1fr;
+  }
+
+  .choice {
+    min-height: 200px;
+  }
+}

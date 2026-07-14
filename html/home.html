@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expenso — Home</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">Expenso<span>.</span></div>
+      <div class="topbar-actions">
+        <span class="user-chip" id="userChip"></span>
+        <button type="button" class="btn btn-ghost btn-sm" id="logoutBtn">Log out</button>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="home-hero">
+        <div class="brand-mark">Expenso<span>.</span></div>
+        <h1>Choose how you want to track expenses. Keep it simple for home, or structured for your company.</h1>
+      </section>
+
+      <section class="chooser" aria-label="Tracker options">
+        <a class="panel choice choice-home" href="personal.html">
+          <span class="choice-kicker">Personal</span>
+          <h2>Home tracker</h2>
+          <p>Log everyday spending with a clean list and a clear monthly total.</p>
+          <span class="btn btn-primary">Open home</span>
+        </a>
+
+        <a class="panel choice choice-company" href="company.html">
+          <span class="choice-kicker">Business</span>
+          <h2>Company tracker</h2>
+          <p>Track team spend by department, vendor, and approval status.</p>
+          <span class="btn btn-accent">Open company</span>
+        </a>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/storage.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/home.js"></script>
+</body>
+</html>

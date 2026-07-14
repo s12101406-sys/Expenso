@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expenso — Home Tracker</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/personal.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="home.html">Expenso<span>.</span></a>
+      <div class="topbar-actions">
+        <span class="user-chip" id="userChip"></span>
+        <button type="button" class="btn btn-ghost btn-sm" id="logoutBtn">Log out</button>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="tracker-header">
+        <div>
+          <a class="back-link" href="home.html">← Back to chooser</a>
+          <h1>Home expenses</h1>
+        </div>
+      </div>
+
+      <section class="summary-row" aria-live="polite">
+        <article class="panel summary-card">
+          <div class="label">This month</div>
+          <div class="value" id="monthTotal">₹0.00</div>
+        </article>
+        <article class="panel summary-card">
+          <div class="label">All time</div>
+          <div class="value" id="allTotal">₹0.00</div>
+        </article>
+        <article class="panel summary-card">
+          <div class="label">Entries</div>
+          <div class="value" id="entryCount">0</div>
+        </article>
+      </section>
+
+      <section class="layout-split">
+        <aside class="panel form-panel">
+          <h2 id="formTitle">Add expense</h2>
+          <form class="expense-form" id="expenseForm">
+            <input type="hidden" id="expenseId" />
+            <div class="field">
+              <label for="title">What for?</label>
+              <input type="text" id="title" required placeholder="Groceries, rent, travel…" maxlength="80" />
+            </div>
+            <div class="field">
+              <label for="amount">Amount (₹)</label>
+              <input type="number" id="amount" required min="0.01" step="0.01" placeholder="0.00" />
+            </div>
+            <div class="field">
+              <label for="category">Category</label>
+              <select id="category" required>
+                <option value="Food">Food</option>
+                <option value="Rent">Rent</option>
+                <option value="Transport">Transport</option>
+                <option value="Bills">Bills</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Health">Health</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Date</label>
+              <input type="date" id="date" required />
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Save expense</button>
+            <button type="button" class="btn btn-ghost" id="cancelEditBtn" hidden>Cancel edit</button>
+          </form>
+        </aside>
+
+        <section class="panel list-panel">
+          <h2>Your list</h2>
+          <div class="list-toolbar">
+            <div class="field">
+              <label for="filterCategory">Category</label>
+              <select id="filterCategory">
+                <option value="all">All</option>
+                <option value="Food">Food</option>
+                <option value="Rent">Rent</option>
+                <option value="Transport">Transport</option>
+                <option value="Bills">Bills</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Health">Health</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="searchInput">Search</label>
+              <input type="search" id="searchInput" placeholder="Search title…" />
+            </div>
+          </div>
+
+          <div class="desktop-table">
+            <table class="expense-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="expenseTableBody"></tbody>
+            </table>
+          </div>
+          <div class="mobile-cards" id="expenseCards"></div>
+          <div class="empty-state" id="emptyState" hidden>No expenses yet. Add your first one on the left.</div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/storage.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/personal.js"></script>
+</body>
+</html>

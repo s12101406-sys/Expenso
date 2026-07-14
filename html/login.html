@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expenso — Sign in</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+  <main class="login-page">
+    <section class="login-visual" aria-hidden="true">
+      <div class="login-brand">Expenso<span>.</span></div>
+      <div class="login-copy">
+        <h1>Track spending with clarity — at home or across your company.</h1>
+        <p>A calm, ledger-first expense workspace. No noise. Just numbers you can trust.</p>
+      </div>
+    </section>
+
+    <section class="login-panel">
+      <div class="panel login-card">
+        <h2 id="authTitle">Welcome back</h2>
+        <p class="subtitle" id="authSubtitle">Sign in to open your Expenso workspace.</p>
+
+        <div class="auth-tabs" role="tablist">
+          <button type="button" class="auth-tab active" id="loginTab" data-mode="login">Sign in</button>
+          <button type="button" class="auth-tab" id="registerTab" data-mode="register">Create account</button>
+        </div>
+
+        <form class="auth-form active" id="loginForm" autocomplete="on">
+          <div class="field">
+            <label for="loginEmail">Email</label>
+            <input type="email" id="loginEmail" name="email" required placeholder="you@email.com" />
+          </div>
+          <div class="field">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" name="password" required minlength="6" placeholder="••••••••" />
+          </div>
+          <p class="error-text" id="loginError" aria-live="polite"></p>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+
+        <form class="auth-form" id="registerForm" autocomplete="on">
+          <div class="field">
+            <label for="registerName">Full name</label>
+            <input type="text" id="registerName" name="name" required placeholder="Alex Morgan" />
+          </div>
+          <div class="field">
+            <label for="registerEmail">Email</label>
+            <input type="email" id="registerEmail" name="email" required placeholder="you@email.com" />
+          </div>
+          <div class="field">
+            <label for="registerPassword">Password</label>
+            <input type="password" id="registerPassword" name="password" required minlength="6" placeholder="At least 6 characters" />
+          </div>
+          <p class="error-text" id="registerError" aria-live="polite"></p>
+          <button type="submit" class="btn btn-accent">Create account</button>
+        </form>
+
+        <p class="demo-note">Accounts stay on this device (local storage). Create an account, then sign in anytime.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/storage.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>
