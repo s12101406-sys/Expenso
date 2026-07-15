@@ -42,7 +42,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 ---
 
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <b>Desktop Experience</b>
