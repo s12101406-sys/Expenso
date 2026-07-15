@@ -7,7 +7,7 @@ Track your monthly expenses with ease...
 
 #  Why Create This?
 
-Managing personal finances shouldn't require complicated software.
+Managing personal nd professional finances shouldn't require complicated software.
 
 Expenso was built to provide a clean, fast, and user-friendly way to monitor monthly expenses and income while practicing modern full-stack development principles. This project focuses on creating a professional user experience with maintainable code architecture and scalable design.
 
