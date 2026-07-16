@@ -77,7 +77,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 ### Analytics
 
-<img width="550" height="" alt="image" src="https://github.com/user-attachments/assets/9232d60f-f2a1-405b-b78f-0719774d08ca" />
+<!-- <img width="550" height="" alt="image" src="https://github.com/user-attachments/assets/9232d60f-f2a1-405b-b78f-0719774d08ca" /> -->
 
 
 </td>
@@ -86,7 +86,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 ### Mobile
 
-<img width="" height="220" alt="image" src="https://github.com/user-attachments/assets/dee35bcf-09ac-4113-9874-c1ad788e970e" />
+<!-- <img width="" height="220" alt="image" src="https://github.com/user-attachments/assets/dee35bcf-09ac-4113-9874-c1ad788e970e" /> -->
 
 
 </td>
