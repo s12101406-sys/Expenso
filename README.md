@@ -76,7 +76,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 ####  Desktop
 
-<img alt="image" src="https://github.com/user-attachments/assets/7f97e455-92c7-4622-af93-69e3b5d1b9ba" width="100%"/>
+<img alt="image" src="https://github.com/user-attachments/assets/0d1f6adf-5758-4c58-a7b0-91eda8e3c61b" width="100%" />
 
 
 
