@@ -42,57 +42,78 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 ---
 
 
-## Screenshots
-
-<p align="center">
-  <b>Desktop Experience</b>
-</p>
-
-<table align="center">
-<tr>
-<td align="center">
+## 📸 Screenshots
 
 ### Dashboard
 
- <img width="550" height="" alt="image" src="https://github.com/user-attachments/assets/fd11c335-6f59-40a6-b9d3-0e6b892d83a0" />
- 
+<table align="center">
+<tr>
+<td align="center" width="75%">
+
+#### 🖥️ Desktop
+
+<img src="https://github.com/user-attachments/assets/fd11c335-6f59-40a6-b9d3-0e6b892d83a0" width="100%"/>
+
 </td>
 
-<td align="center">
+<td align="center" width="25%">
 
-### Mobile
+#### 📱 Mobile
 
-<img width="" height="220" alt="image" src="https://github.com/user-attachments/assets/1811e6c3-501f-45fa-b287-0f81e15db888" />
-
+<img src="https://github.com/user-attachments/assets/1811e6c3-501f-45fa-b287-0f81e15db888" width="250"/>
 
 </td>
 </tr>
 </table>
 
-<br>
+---
+
+### Selection Screen
 
 <table align="center">
 <tr>
-<td align="center">
+<td align="center" width="75%">
 
-### Analytics
+#### 🖥️ Desktop
 
-<!-- <img width="550" height="" alt="image" src="https://github.com/user-attachments/assets/9232d60f-f2a1-405b-b78f-0719774d08ca" /> -->
+<img src="https://github.com/user-attachments/assets/5087bab2-c0a2-45ce-a893-b04e37dacd5b" width="100%" />
 
 
 </td>
 
-<td align="center">
+<td align="center" width="25%">
 
-### Mobile
+#### 📱 Mobile
 
-<!-- <img width="" height="220" alt="image" src="https://github.com/user-attachments/assets/dee35bcf-09ac-4113-9874-c1ad788e970e" /> -->
-
+<img src="https://github.com/user-attachments/assets/e01f499b-4d7f-4fe0-bf13-60a03c630284" width="250"/>
 
 </td>
 </tr>
 </table>
 
+---
+
+### Analytics
+
+<table align="center">
+<tr>
+<td align="center" width="75%">
+
+#### 🖥️ Desktop
+
+<img src="https://github.com/user-attachments/assets/b4af8f9f-4687-40d8-b05e-e2ece7ad4df4" width="100%"/>
+
+</td>
+
+<td align="center" width="25%">
+
+#### 📱 Mobile
+
+<img src="https://github.com/user-attachments/assets/ac6eebd1-b98f-4281-86f2-408098854bb4" width="250"/>
+
+</td>
+</tr>
+</table>
 
 
 # Tech Stack
