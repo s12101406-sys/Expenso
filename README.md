@@ -42,7 +42,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 ---
 
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard
 
@@ -50,7 +50,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 <tr>
 <td align="center" width="75%">
 
-#### 🖥️ Desktop
+####  Desktop
 
 <img src="https://github.com/user-attachments/assets/fd11c335-6f59-40a6-b9d3-0e6b892d83a0" width="100%"/>
 
@@ -58,7 +58,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 <td align="center" width="25%">
 
-#### 📱 Mobile
+####  Mobile
 
 <img src="https://github.com/user-attachments/assets/1811e6c3-501f-45fa-b287-0f81e15db888" width="250"/>
 
@@ -74,7 +74,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 <tr>
 <td align="center" width="75%">
 
-#### 🖥️ Desktop
+####  Desktop
 
 <img src="https://github.com/user-attachments/assets/5087bab2-c0a2-45ce-a893-b04e37dacd5b" width="100%" />
 
@@ -83,7 +83,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 <td align="center" width="25%">
 
-#### 📱 Mobile
+####  Mobile
 
 <img src="https://github.com/user-attachments/assets/e01f499b-4d7f-4fe0-bf13-60a03c630284" width="250"/>
 
@@ -99,7 +99,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 <tr>
 <td align="center" width="75%">
 
-#### 🖥️ Desktop
+####  Desktop
 
 <img src="https://github.com/user-attachments/assets/b4af8f9f-4687-40d8-b05e-e2ece7ad4df4" width="100%"/>
 
@@ -107,7 +107,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 <td align="center" width="25%">
 
-#### 📱 Mobile
+####  Mobile
 
 <img src="https://github.com/user-attachments/assets/ac6eebd1-b98f-4281-86f2-408098854bb4" width="250"/>
 
