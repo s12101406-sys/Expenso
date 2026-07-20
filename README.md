@@ -197,7 +197,7 @@ Live Server
 Or simply open
 
 ```
-index.html
+login.html
 ```
 
 ##  Contributing
