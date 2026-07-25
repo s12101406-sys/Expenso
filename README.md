@@ -68,7 +68,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 ---
 
-### Selection Screen
+### SECTION SCREEN
 
 <table align="center">
 <tr>
@@ -94,7 +94,7 @@ Beyond being an expense tracker, Expenso represents my journey of building produ
 
 ---
 
-### Analytics
+### ANALYTICS
 
 <table align="center">
 <tr>
