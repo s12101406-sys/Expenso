@@ -5,7 +5,7 @@
 Track your monthly expenses with ease...
 </p>
 
-#  Why Create This?
+#  Reason Behind this creation
 
 Managing personal nd professional finances shouldn't require complicated software.
 
